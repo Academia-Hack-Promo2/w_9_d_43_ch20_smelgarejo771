@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Open Sans Light";
+	src: url(../fonts/open-sans-light.ttf);
+}
+
+body {
+	font-family: "Open Sans Light";
+}
+
+section {
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+	background-image: url("../img/grid_background.png");
+	padding: 16%;
+}
+
+#main .logo {
+	margin: 0 auto;
+	display: table;
+}
+
+#slogan {
+	background-color: #df634c;
+	color: #fff;
+	padding: 23% 0;
+}
+
+.page-title {
+	border-bottom: 2px solid #fff;
+	display: table;
+	margin: auto;
+	padding-bottom: 10px;
+}
