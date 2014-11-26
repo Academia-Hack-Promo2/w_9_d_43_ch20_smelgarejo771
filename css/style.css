@@ -18,6 +18,7 @@ header {
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
+	z-index: 999;
 }
 
 header.show {
@@ -142,6 +143,17 @@ section {
 	-moz-border-radius: 10px;
 	margin: 20px 0;
 	text-align: justify;
+	max-height: 380px;
+	overflow-y: auto;
+}
+
+#terms .box::-webkit-scrollbar {
+	background-color: #BB513E;
+}
+
+#terms .box::-webkit-scrollbar-thumb {
+	background-color: #f06b54;
+	border: 1px solid #BB513E;
 }
 
 #terms a {
