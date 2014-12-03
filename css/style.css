@@ -26,7 +26,7 @@ header.show {
 }
 
 header .logo {
-	width: 70px;
+	margin: 10px 0;
 }
 
 header .nav {
@@ -38,6 +38,19 @@ section {
 	height: 100%;
 }
 
+a:focus,
+select:focus {
+	outline: none;
+}
+
+#pedidos {
+	padding-top: 100px;
+}
+
+#pedidos header {
+	opacity: 1;
+}
+
 .container {
 	width: 1170px;
 }
@@ -45,6 +58,12 @@ section {
 #main {
 	background-image: url("../img/grid_background.png");
 	padding: 16%;
+}
+
+#main.red {
+	background-color: #EF6B54;
+	padding: 0 0 20px;
+	color: #fff;
 }
 
 #main .logo {
@@ -159,6 +178,104 @@ section {
 #terms a {
 	color: #fff;
 	text-decoration: underline;
+}
+
+.inputs-style input {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	color: #8F8F8F;
+	font-size: 18px;
+}
+
+.calendar-box .blue-banner {
+	background-color: #57BBEC;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.calendar-box .content {
+	background-color: #fff;
+	padding: 10px 0;
+}
+
+.days {
+	width: 20%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 1px;
+	margin: 0 -2px;
+	text-align: center;
+}
+
+.days span {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	font-size: 20px;
+	line-height: 40px;
+	background-color: #38393D;
+	width: 45px;
+	height: 45px;
+	display: block;
+	margin: 5px auto;
+	border: 2px solid #fff;
+	box-shadow: 0 0 0 2px #38393D;
+	color: #fff;
+}
+
+.days select {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	background-color: #fff;
+	border: none;
+	padding: 2px 5px;
+	width: 100%;
+}
+
+.days .select {
+	position: relative;
+}
+
+.days .select:after {
+	position: absolute;
+	content: " ";
+	width: 10px;
+	height: 10px;
+	top: 5px;
+	right: 15px;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.gray-section .days {
+	padding: 0 15px;
+}
+
+.calendar-box .days.small span {
+	font-size: 16px;
+	line-height: 30px;
+	background-color: #E0E0E2;
+	width: 35px;
+	height: 35px;
+	box-shadow: 0 0 0 2px #E0E0E2;
+	color: #707072;
+}
+
+.gray-section {
+	background-color: #E8E6E7;
+	padding: 40px 0;
+	color: #35393C;
 }
 
 footer {
