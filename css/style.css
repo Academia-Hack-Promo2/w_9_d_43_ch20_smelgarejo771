@@ -188,7 +188,7 @@ select:focus {
 	padding: 5px;
 	margin-bottom: 10px;
 	color: #8F8F8F;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 .calendar-box .blue-banner {
@@ -276,6 +276,60 @@ select:focus {
 	background-color: #E8E6E7;
 	padding: 40px 0;
 	color: #35393C;
+}
+
+input[type=checkbox] {
+	margin: 4px 0 0;
+	margin-top: 1px \9;
+	line-height: normal;
+	background: #fff;
+	-webkit-appearance: initial;
+	width: 15px;
+	height: 15px;
+}
+
+input[type=checkbox]:checked {
+	border: 4px solid #fff;
+	background-color: #555;
+}
+
+.delivery {
+	background-color: #56BCEC;
+	position: relative;
+	padding: 2px 5px;
+	color: #fff;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.delivery span {
+	margin: 5px 10px;
+	float: right;
+	background-color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	box-shadow: 0 0 0;
+}
+
+.btn-red {
+	background-color: #EF6B54;
+	color: #fff;
+	width: 100%;
+	padding: 5px 0;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.btn-red:hover {
+	background-color: #C35845;
+	color: #fff;
+	text-decoration: none;
 }
 
 footer {
