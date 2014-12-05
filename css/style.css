@@ -415,6 +415,44 @@ input[type=checkbox]:checked {
 	border-top: 2px solid #363A3D;
 }
 
+input[type="radio"]:focus {
+	outline: 0;
+}
+
+input[type="radio"]#efectivo {
+	background-image: url(../img/cash.png);
+	background-size: 100% 100%;
+	-webkit-appearance:button;
+	border: 3px solid #E8E6E7;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 20px;
+	height: 120px;
+	width: 120px;
+}
+
+input[type="radio"]#credito {
+	background-image: url(../img/credit.png);
+	background-size: 100% 100%;
+	-webkit-appearance:button;
+	border: 3px solid #E8E6E7;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 20px;
+	height: 120px;
+	width: 120px;
+}
+
+input[type="radio"]#efectivo:checked,
+input[type="radio"]#credito:checked {
+	border: 3px solid #E8E6E7;
+	box-shadow: 0 0 0 3px #EF6B54;
+}
+
 footer {
 	border-top: 1px dashed #d7d7d8;
 	padding: 50px 0;
