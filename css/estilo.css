@@ -1,0 +1,201 @@
+.header img{
+	margin-left: 5%;
+	padding: 20px;
+}
+
+
+.conten-cant{
+	width: 700px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#cantina{
+	padding: 5px 0;
+	background-color: #EF6B54;
+	background-image: url('../img/grid_background.png'); 
+}
+
+.cont-sem div{
+	text-align: center;
+	margin-top: 10px
+}
+
+.conten-cant h1{
+	margin-top: 0px;
+	text-align: center;
+}
+
+.conten-cant h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.conten{
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+}
+
+input{
+	width: 95%;
+	padding: 15px 5px;
+}
+
+.conten textarea{
+	width: 197.5%;
+	margin-bottom: 10px; 
+}
+
+.calendario{
+	position: relative;
+	width: 100%;
+	height: 360px;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	clear: both;
+}
+
+.calendario h1{
+	padding: 5px;
+	background-color: #57BBEC;
+}
+
+
+.peq{
+	width: 53px;
+	height: 53px;
+	background-color: #E8E6E7;
+	border-radius: 40px 40px;
+	text-align: center;	
+}
+
+.grd{
+	width: 65px;
+	height: 65px;
+	background-color: #38393D;
+	border-radius: 55px 55px; 
+	text-align: center;
+	color: #fefefe;
+}
+
+.fila1{
+	position: absolute;
+	top: 14%;
+}
+
+.fila2{
+	position: absolute;
+	top: 33%; 
+}
+
+.fila3{
+	position: absolute;
+	top: 49%;
+}
+
+.fila4{
+	position: absolute;
+	top: 65%;
+}
+
+.fila5{
+	position: absolute;
+	top: 81%;
+}
+
+
+.columna1{
+	position: absolute;
+	left: 25%;
+}
+
+.columna2{
+	position: absolute;
+	left: 35%;
+}
+
+.columna3{
+	position: absolute;
+	left: 45%;
+}
+
+.columna4{
+	position: absolute;
+	left: 55%;
+}
+
+.columna5{
+	position: absolute;
+	left: 65%;
+}
+
+.columma1{
+	position: absolute;
+	left: 26%;
+}
+
+.columma2{
+	position: absolute;
+	left: 36%;
+}
+
+.columma3{
+	position: absolute;
+	left: 46%;
+}
+
+.columma4{
+	position: absolute;
+	left: 56%;
+}
+
+.columma5{
+	position: absolute;
+	left: 66%;
+}
+
+#semena{
+	width: 100%;
+	height: auto;
+	padding: 5px 0;}
+
+.fondo{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #E8E6E7;
+}
+
+.cont-sem{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.continuar{
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	width: 20%;
+	height: 40px;
+	background-color: #EF6B54; 
+}
+
+.colum1{
+	position: absolute;
+	width: 20%;
+	top: 20%;
+	left: 5%
+}
+
+.circulo{
+	width: 65px;
+	height: 65px;
+	margin: 0 auto;
+	background-color: #38393D;
+	border-radius: 55px 55px; 
+	text-align: center;
+	color: #000;
+}
