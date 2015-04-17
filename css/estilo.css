@@ -22,14 +22,11 @@
 	margin-top: 10px
 }
 
-.conten-cant h1{
+.conten-cant p{
 	margin-top: 0px;
 	text-align: center;
-}
-
-.conten-cant h2{
-	text-align: center;
-	margin-bottom: 10px;
+	color: #fefefe;
+	font-size: 30px;
 }
 
 .conten{
@@ -70,6 +67,8 @@
 	background-color: #E8E6E7;
 	border-radius: 40px 40px;
 	text-align: center;	
+	border: double #fefefe;
+	font-size: 20px;
 }
 
 .grd{
@@ -77,33 +76,35 @@
 	height: 65px;
 	background-color: #38393D;
 	border-radius: 55px 55px; 
+	border: double #fefefe; 
 	text-align: center;
 	color: #fefefe;
+	font-size: 25px;
 }
 
 .fila1{
 	position: absolute;
-	top: 14%;
+	top: 11%;
 }
 
 .fila2{
 	position: absolute;
-	top: 33%; 
+	top: 31%; 
 }
 
 .fila3{
 	position: absolute;
-	top: 49%;
+	top: 47%;
 }
 
 .fila4{
 	position: absolute;
-	top: 65%;
+	top: 63%;
 }
 
 .fila5{
 	position: absolute;
-	top: 81%;
+	top: 79%;
 }
 
 
@@ -174,7 +175,8 @@
 	width: 800px;
 	margin: 0 auto;
 	padding: 15px;
-	height: 475px;
+	height: 508px;
+	color: #38393D;
 }
 
 .continuar{
@@ -191,7 +193,7 @@
 .colum1{
 	position: absolute;
 	width: 20%;
-	top: 10%;
+	top: 14%;
 	left: 0%
 }
 
@@ -201,35 +203,36 @@
 	margin: 0 auto;
 	background-color: #38393D;
 	border-radius: 55px 55px; 
+	border: double #fefefe;
 	text-align: center;
-	color: #000;
+	color: #fefefe;
 }
 
 .colum2{
 	position: absolute;
 	width: 20%;
-	top: 10%;
+	top: 14%;
 	left: 20%
 }
 
 .colum3{
 	position: absolute;
 	width: 20%;
-	top: 10%;
+	top: 14%;
 	left: 40%
 }
 
 .colum4{
 	position: absolute;
 	width: 20%;
-	top: 10%;
+	top: 14%;
 	left: 60%
 }
 
 .colum5{
 	position: absolute;
 	width: 20%;
-	top: 10%;
+	top: 14%;
 	left: 80%
 }
 
@@ -239,10 +242,11 @@ input{
 }
 
 .pie-pag{
-	margin: 100px auto;
+	margin: 40px auto 30px auto;
 	font-size: 200%; 
 	text-align: center;
-	width: 100%
+	width: 100%;
+	color: #38393D;
 }
 
 .pie-pag1{
@@ -253,4 +257,41 @@ input{
 
 .logo img{
 	margin-left: 555px;
+}
+
+.letra{
+	margin-top: 28%; 
+}
+
+.letra1{
+	margin-top: 35%; 
+}
+
+select{
+	width: 80%;
+}
+
+.bar-right{
+	position: absolute;
+	width: 1%;
+	padding: 1px;
+	height: 100%;
+	right: 0px;
+	background-color: #fff;
+	border-radius: 4px; 
+}
+
+.cont-sem p{
+	text-align: center;
+	font-size: 25px;
+	color: #38393D;
+}
+
+.linea{
+	padding: 4px;
+	width: 80%;
+	background-color: #E8E6E7;
+	border-radius: 4px;
+	margin: 0 auto 80px auto;
+
 }
